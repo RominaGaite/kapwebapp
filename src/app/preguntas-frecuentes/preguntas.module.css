@@ -1,0 +1,48 @@
+.preguntasContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .mainSection {
+    margin-top: 20px;
+  }
+  
+  .faqItem {
+    margin-bottom: 20px;
+  }
+  
+  .faqItem h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .faqItem ul {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .volverButton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  
+  .volverButton:hover {
+    background-color: darkblue;
+  }
+  

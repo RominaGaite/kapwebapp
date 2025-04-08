@@ -1,0 +1,56 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+  
+  .backButton {
+    text-align: left;
+    margin: 10px 0;
+    padding-left: 10px;
+  }
+  
+  .backButton a {
+    color: #D32F2F;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .input {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #D32F2F;
+    border-radius: 30px;
+    font-size: 14px;
+    outline: none;
+    margin: 15px auto;
+    display: block;
+  }
+  
+  .mapPlaceholder {
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    border: 3px dashed #D32F2F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #D32F2F;
+    background-color: #fce9e9;
+  }
+  
+  .footer {
+    font-size: 12px;
+    color: gray;
+    margin-top: 30px;
+  }
+  

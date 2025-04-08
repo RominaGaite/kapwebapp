@@ -1,0 +1,45 @@
+.denunciaContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .googleLoginButton {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .googleLoginButton:hover {
+    background-color: #357ae8;
+  }
+  
+  .backButton {
+    background-color: #ccc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  .backButton:hover {
+    background-color: #bbb;
+  }
+  
+  .link {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

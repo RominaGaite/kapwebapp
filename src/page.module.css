@@ -1,0 +1,79 @@
+/* Carrusel (pantalla principal) */
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.carouselImg {
+  width: 50%;
+  object-fit:contain;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Pantalla de inicio */
+.inicioContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.inicioTitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.inicioButton {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.inicioButton:hover {
+  background-color: #005bb5;
+}
+
+/* Media Queries para dispositivos pequeños */
+@media (max-width: 768px) {
+  .carouselImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .inicioTitle {
+    font-size: 1.5rem;
+  }
+
+  .inicioButton {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 480px) {
+  .carouselContainer {
+    height: 70vh;
+  }
+
+  .inicioTitle {
+    font-size: 1.2rem;
+  }
+
+  .inicioButton {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
